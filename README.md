@@ -33,7 +33,7 @@ PORT=5000
 PG_HOST=localhost
 PG_PORT=5432
 PG_USER=postgres
-PG_PASSWORD=your_postgres_password
+PG_PASSWORD=#Anku265482
 PG_DATABASE=bookdb
 
 ## 📘 API Endpoints
