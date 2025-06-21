@@ -1,0 +1,43 @@
+const express = require("express");
+const router = express.Router();
+const pool = require("../db");
+
+// GET all books
+router.get("/", async (req, res) => {
+  const result = await pool.query("SELECT * FROM books");
+  res.json(result.rows);
+});
+
+// GET a single book by ID
+router.get("/:id", async (req, res) => {
+  const result = await pool.query("SELECT * FROM books WHERE id = $1", [req.params.id]);
+  res.json(result.rows[0]);
+});
+
+// POST a new book
+router.post("/", async (req, res) => {
+  const { title, author, year } = req.body;
+  const result = await pool.query(
+    "INSERT INTO books (title, author, year) VALUES ($1, $2, $3) RETURNING *",
+    [title, author, year]
+  );
+  res.status(201).json(result.rows[0]);
+});
+
+// PUT update a book
+router.put("/:id", async (req, res) => {
+  const { title, author, year } = req.body;
+  const result = await pool.query(
+    "UPDATE books SET title = $1, author = $2, year = $3 WHERE id = $4 RETURNING *",
+    [title, author, year, req.params.id]
+  );
+  res.json(result.rows[0]);
+});
+
+// DELETE a book
+router.delete("/:id", async (req, res) => {
+  await pool.query("DELETE FROM books WHERE id = $1", [req.params.id]);
+  res.sendStatus(204);
+});
+
+module.exports = router;
