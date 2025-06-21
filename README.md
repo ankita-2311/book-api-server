@@ -35,3 +35,14 @@ PG_PORT=5432
 PG_USER=postgres
 PG_PASSWORD=your_postgres_password
 PG_DATABASE=bookdb
+
+## 📘 API Endpoints
+
+| Method | Endpoint             | Description          |
+|--------|----------------------|----------------------|
+| GET    | /api/books           | Get all books        |
+| GET    | /api/books/:id       | Get book by ID       |
+| POST   | /api/books           | Create new book      |
+| PUT    | /api/books/:id       | Update existing book |
+| DELETE | /api/books/:id       | Delete a book        |
+
