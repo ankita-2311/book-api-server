@@ -37,3 +37,19 @@ This API allows you to:
    ```bash
    git clone https://github.com/ankita-2311/book-api-server.git
    cd book-api-server
+   ## ✅ Test Strategy & Coverage
+
+This project includes:
+
+- ✅ **Unit Tests** – app logic
+- ✅ **Integration Tests** – DB CRUD operations
+- ✅ **API Tests** – endpoints via Supertest
+- ✅ **Mocking** – with `mongodb-memory-server`
+- ✅ **100% Test Coverage** – statements, branches, functions, and lines
+
+### 📸 Coverage Report Screenshot
+
+![Test Coverage Screenshot](screenshot/coverage.png)
+
+
+   
