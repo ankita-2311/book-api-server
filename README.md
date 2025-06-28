@@ -45,14 +45,14 @@ docker compose up --build
 ## 📸 Screenshots
 
 ### ✅ Test Coverage Report
-![Coverage Report](./screenshots/coverage.png)
+![Coverage Report](./screenshot/coverage.png)
 
 ### 🐰 Keploy CLI Output
-![Keploy CLI](./screenshots/keploy-cli-record.png)
+![Keploy CLI](./screenshot/keploy-cli-record.png)
 
 ### ✅ keploy-folder-test-files
-![Coverage Report](./screenshots/keploy-folder-test-files.png)
+![Coverage Report](./screenshot/keploy-folder-test-files.png)
 
 ### 🐰 curl-post-success
-![Keploy CLI](./screenshots/curl-post-success.png)
+![Keploy CLI](./screenshot/curl-post-success.png)
 
