@@ -43,3 +43,6 @@ git clone https://github.com/ankita-2311/book-api-server.git
 cd book-api-server
 docker compose up --build
 ## 📸 Screenshots
+## 📸 Screenshots
+
+All project screenshots are available in the [`screenshot`](./screenshot) folder.
