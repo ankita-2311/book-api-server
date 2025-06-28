@@ -42,3 +42,17 @@ This is a Node.js-based RESTful API server for managing books and users. The pro
 git clone https://github.com/ankita-2311/book-api-server.git
 cd book-api-server
 docker compose up --build
+## 📸 Screenshots
+
+### ✅ Test Coverage Report
+![Coverage Report](./screenshots/coverage.png)
+
+### 🐰 Keploy CLI Output
+![Keploy CLI](./screenshots/keploy-cli-record.png)
+
+### ✅ keploy-folder-test-files
+![Coverage Report](./screenshots/keploy-folder-test-files.png)
+
+### 🐰 curl-post-success
+![Keploy CLI](./screenshots/curl-post-success.png)
+
