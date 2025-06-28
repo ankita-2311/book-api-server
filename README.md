@@ -43,16 +43,3 @@ git clone https://github.com/ankita-2311/book-api-server.git
 cd book-api-server
 docker compose up --build
 ## 📸 Screenshots
-
-### ✅ Test Coverage Report
-![Coverage Report](screenshot/coverage.png)
-
-### 🐰 Keploy CLI Output
-![Keploy CLI](screenshot/keploy-cli-record.png)
-
-### ✅ Keploy Folder Test Files
-![Test Files](screenshot/keploy-folder-test-files.png)
-
-### 🐰 curl POST Success
-![Curl Success](screenshot/curl-post-success.png)
-
