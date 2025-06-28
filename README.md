@@ -24,15 +24,15 @@ This is a Node.js-based RESTful API server for managing books and users. The pro
 
 ## 🧰 Tech Stack
 
-| Layer         | Tech                          |
-|---------------|-------------------------------|
-| Language      | JavaScript (Node.js)          |
-| Framework     | Express.js                    |
-| Database      | PostgreSQL                    |
-| DB Client     | node-postgres (`pg`)          |
-| Testing       | Jest, Supertest               |
+| Layer         | Tech                            |
+|---------------|---------------------------------|
+| Language      | JavaScript (Node.js)            |
+| Framework     | Express.js                      |
+| Database      | PostgreSQL                      |
+| DB Client     | node-postgres (`pg`)            |
+| Testing       | Jest, Supertest                 |
 | In-Memory DB  | `mongodb-memory-server` (tests) |
-| Environment   | dotenv                        |
+| Environment   | dotenv                          |
 
 ---
 
@@ -42,17 +42,3 @@ This is a Node.js-based RESTful API server for managing books and users. The pro
 git clone https://github.com/ankita-2311/book-api-server.git
 cd book-api-server
 docker compose up --build
-## 📸 Screenshots
-
-### ✅ Test Coverage Report
-![Coverage Report](./screenshot/coverage.png)
-
-### 🐰 Keploy CLI Output
-![Keploy CLI](./screenshot/keploy-cli-record.png)
-
-### ✅ keploy-folder-test-files
-![Coverage Report](./screenshot/keploy-folder-test-files.png)
-
-### 🐰 curl-post-success
-![Keploy CLI](./screenshot/curl-post-success.png)
-
